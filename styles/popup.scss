@@ -17,3 +17,15 @@ header {
     gap: 4px;
   }
 }
+
+footer {
+  padding: 4px;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+
+  .link:not(:first-child)::before {
+    content: "|";
+    margin-right: 4px;
+  }
+}
