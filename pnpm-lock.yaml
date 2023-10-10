@@ -6,6 +6,7 @@ specifiers:
   '@types/node': 20.5.9
   '@types/react': 18.2.21
   '@types/react-dom': 18.2.7
+  dayjs: ^1.11.10
   plasmo: 0.83.0
   prettier: 3.0.3
   react: 18.2.0
@@ -15,6 +16,7 @@ specifiers:
   typescript: 5.2.2
 
 dependencies:
+  dayjs: 1.11.10
   plasmo: 0.83.0_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -3011,6 +3013,10 @@ packages:
 
   /csstype/3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
+
+  /dayjs/1.11.10:
+    resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==}
+    dev: false
 
   /debug/3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}

@@ -1,5 +1,5 @@
 import "ress"
-import "styles.scss"
+import "styles/popup.scss"
 import { useForm } from "react-hook-form"
 
 function IndexPopup() {
