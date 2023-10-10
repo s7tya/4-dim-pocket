@@ -1,5 +1,7 @@
 name: "Upload Production Build"
 
+permissions:
+  contents: write
 on:
   push:
     tags:

@@ -1,6 +1,4 @@
 name: "Submit to Web Store"
-permissions:
-  contents: write
 on:
   workflow_dispatch:
 
