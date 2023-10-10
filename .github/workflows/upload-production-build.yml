@@ -31,9 +31,7 @@ jobs:
           cache: "pnpm"
 
       - name: Build the extension
-        run: pnpm build --target chrome-mv3 && pnpm build --target firefox-mv2
-      - name: Package the extension into a zip artifact
-        run: pnpm package
+        run: pnpm build --target chrome-mv3 --zip && pnpm build --target firefox-mv2 --zip
 
       - name: Upload Production Build
         uses: softprops/action-gh-release@v1
