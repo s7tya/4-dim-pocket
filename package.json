@@ -12,7 +12,9 @@
   "dependencies": {
     "plasmo": "0.83.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.47.0",
+    "ress": "^5.0.2"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.1.0",
@@ -25,7 +27,9 @@
   },
   "manifest": {
     "host_permissions": [
-      "https://*/*"
+      "https://manaba.tsukuba.ac.jp/*",
+      "https://twins.tsukuba.ac.jp/*",
+      "https://kdb.tsukuba.ac.jp/*"
     ]
   }
 }

@@ -1,0 +1,19 @@
+.root {
+  width: 280px;
+}
+
+header {
+  background: #00A1E9;
+  color: white;
+  padding: 4px;
+}
+
+.features {
+  padding: 4px;
+
+  .feature {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+}

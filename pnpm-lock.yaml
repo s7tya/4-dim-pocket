@@ -10,12 +10,16 @@ specifiers:
   prettier: 3.0.3
   react: 18.2.0
   react-dom: 18.2.0
+  react-hook-form: ^7.47.0
+  ress: ^5.0.2
   typescript: 5.2.2
 
 dependencies:
   plasmo: 0.83.0_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-hook-form: 7.47.0_react@18.2.0
+  ress: 5.0.2
 
 devDependencies:
   '@ianvs/prettier-plugin-sort-imports': 4.1.0_prettier@3.0.3
@@ -4667,6 +4671,15 @@ packages:
     resolution: {integrity: sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==}
     dev: false
 
+  /react-hook-form/7.47.0_react@18.2.0:
+    resolution: {integrity: sha512-F/TroLjTICipmHeFlMrLtNLceO2xr1jU3CyiNla5zdwsGUGu2UOxxR4UyJgLlhMwLW/Wzp4cpJ7CPfgJIeKdSg==}
+    engines: {node: '>=12.22.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
+    dev: false
+
   /react-refresh/0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
     engines: {node: '>=0.10.0'}
@@ -4741,6 +4754,10 @@ packages:
     engines: {node: '>=14.16'}
     dependencies:
       lowercase-keys: 3.0.0
+    dev: false
+
+  /ress/5.0.2:
+    resolution: {integrity: sha512-oHBtOWo/Uc8SzQMbQNIKTcgi8wKmAs7IlNlRywmXudbOtF+c27FlOIq7tnwLDVcTywe6JXYo1pDXHO6kABwNYA==}
     dev: false
 
   /restore-cursor/3.1.0:
