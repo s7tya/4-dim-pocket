@@ -1,7 +1,7 @@
 {
   "name": "4-dim-pocket",
   "displayName": "4 dim pocket",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "pack of features to improve usability of manaba.",
   "author": "Plasmo Corp. <foss@plasmo.com>",
   "packageManager": "pnpm@8.9.0",
