@@ -33,10 +33,11 @@ jobs:
           cache: "pnpm"
 
       - name: Build the extension
-        run: pnpm build --target chrome-mv3 --zip
+        run: pnpm build --target=chrome-mv3 --zip && pnpm build --target=firefox-mv2 --zip
 
       - name: Upload Production Build
         uses: softprops/action-gh-release@v1
         with:
           files: |
             build/chrome-mv3-prod.zip
+            build/firefox-mv2-prod.zip
